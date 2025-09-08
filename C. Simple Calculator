@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double x, y;
+    cout << "Enter first number: ";
+    cin >> x;
+    cout << "Enter second number: ";
+    cin >> y;
+
+    double sum = x + y;
+    double multipy = x * y;
+    double subtract = x - y;
+
+    // Print results
+    cout << "Summation: " << sum << endl;
+    cout << "Multiplication: " << multipy << endl;
+    cout << "Subtraction: " << subtract << endl;
+
+    return 0;
+}
